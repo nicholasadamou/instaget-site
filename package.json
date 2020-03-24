@@ -1,0 +1,27 @@
+{
+	"name": "instaget.now",
+	"version": "1.0.0",
+	"description": "A simplistic service built to view Instagram profile pictures at their full native resolution.",
+	"author": {
+		"name": "Nicholas Adamou",
+		"url": "https://nicholasadamou.com",
+		"email": "nicholasadamouemail@gmail.com"
+	},
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"start": "next start",
+		"build": "next build",
+		"now-build": "next build",
+		"export": "next export"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"instagram-profile-picture": "^1.0.5",
+		"next": "^9.1.6",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-input-autosize": "^2.2.1"
+	}
+}

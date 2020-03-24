@@ -1,0 +1,14 @@
+{
+	"name": "instaget",
+	"version": 2,
+	"alias": ["instaget.now.sh", "instaget.now.sh"],
+	"builds": [
+		{ "src": "/static/*", "use": "@now/static" },
+		{ "src": "package.json", "use": "@now/next" },
+		{ "src": "index.js", "use": "@now/node" }
+	],
+	"routes": [
+		{ "src": "/api/(.*)", "dest": "/index.js" },
+		{ "src": "/(.*)", "dest": "/$1" }
+	]
+}
