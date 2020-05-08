@@ -52,4 +52,4 @@ yarn start
 
 ## License
 
-Copyright (c) 2019 by Nicholas Adamou. Some rights reserved.
+Copyright (c) by Nicholas Adamou. Some rights reserved.
