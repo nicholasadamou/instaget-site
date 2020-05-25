@@ -27,9 +27,6 @@
 ## What is '_Instaget_'?
 
 Instaget is a a simplistic service built to view Instagram profile pictures at their full native resolution.
-
-⚠️ To access the demo of 'Instaget' visit this link: [instaget demo](https://instaget.now.sh/).
-
 ## How To Use
 
 ```bash
